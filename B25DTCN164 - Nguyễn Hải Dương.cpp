@@ -107,11 +107,16 @@ public:
             cin >> choice;
             
             switch (choice) {
-                case 1: create(); break;
-                case 2: read(); break;
-                case 3: update(); break;
-                case 4: remove(); break;
-                case 5: cout << "Ket thuc chuong trinh!\n"; break;
+                case 1: create();
+				 	break;
+                case 2: read(); 
+					break;
+                case 3: update();
+					 break;
+                case 4: remove();
+					 break;
+                case 5: cout << "Ket thuc chuong trinh!\n"; 
+					break;
                 default: cout << "Lua chon sai!\n";
             }
         } while (choice != 5);
